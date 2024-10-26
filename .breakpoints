@@ -1,0 +1,66 @@
+{
+  "files": {
+    "errors.txt": [
+      {
+        "id": "91092fb7-8d9d-424f-ac77-9b897ad93bce",
+        "line": 1,
+        "version": 3,
+        "index": 0
+      }
+    ],
+    "main.py": [
+      {
+        "id": "37b01cac-9e68-4e25-beb0-ed93aee9713a",
+        "line": 1,
+        "version": 7930,
+        "index": 0
+      },
+      {
+        "id": "639ce1aa-a4eb-4a06-9a00-be74a11ddc37",
+        "line": 1,
+        "version": 7930,
+        "index": 0
+      }
+    ],
+    "pythonfiles/model.py": [
+      {
+        "id": "6adbe526-505e-42d2-92eb-1a022c40132f",
+        "line": 6,
+        "version": 400,
+        "index": 99
+      }
+    ],
+    "static/javascript/classes/GameData.js": [
+      {
+        "id": "40c29fd9-ad12-4dc6-a2e0-0a1c1fddb918",
+        "line": 9,
+        "version": 388,
+        "index": 46
+      }
+    ],
+    "static/javascript/classes/Player.js": [
+      {
+        "id": "c956c697-8b59-47c7-8845-e5ba80c648d7",
+        "line": 1,
+        "version": 870,
+        "index": 0
+      }
+    ],
+    "static/javascript/script.js": [
+      {
+        "id": "de5924b7-e644-41dc-a0ca-598862dfcaed",
+        "line": 1,
+        "version": 1614,
+        "index": 0
+      }
+    ],
+    "templates/index.html": [
+      {
+        "id": "bc5518f6-530c-41d4-b1af-1172d0bd26ce",
+        "line": 6,
+        "version": 2262,
+        "index": 109
+      }
+    ]
+  }
+}

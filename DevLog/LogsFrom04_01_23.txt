@@ -1,0 +1,159 @@
+
+
+logs are from 04/01/2023 to 19/02/2023 
+(all other logs were lost.)
+
+date       time = None
+04/01/2023 1am 
+// added functionality to the bullets by adding collision detection
+// when they hit an enemy they dissapear
+// every round the stakeholder goes up by the health increases by 20 points
+
+// stuff in assets now have a full working code for thiis game all ii need  nowto document it and see what i can add
+// use a button as a start screen with a fat start and a died screen 
+// next you can see to add some art or animations
+
+
+04/01/2023 7:17am 
+// Game points 
+// just added some stuff in the state class 
+// unextended the class to the game class 
+// made a menu object so i can have easy acsses to it in the state class.
+
+
+04/01/2023 10:22 am 
+// watch cs50 flask video to learn how to intergrate a back end into my website
+
+
+04/01/2023 11:40pm
+// my program is now a half stack 
+// i used flask to do this
+// so all i need to do is add some scores and add them to a database and output them 
+
+
+05/01/2023  1am
+// i can try to adjust the game so that if it detects its on a mobile it can use an alternative set of event listeners instead of the defult ones
+
+
+07/01/2023 19:40
+// i have added fucntionality for the score to update and render
+// i did this by adding a Draw score method in the player class
+// then increasing the score when you hit an enemy by 1 (in the renderbullets method in the game class)
+// for now the probability to hit a enemy is about 70%
+// added the drawing and functonality to show the round too in the game class
+
+
+08/01/2023 2am
+// i have added a functionality for when the player dies stakeholders can now choose to play again 
+// this is new and does not use the state class and instead there is a method for cecking if the stakeholder has chosen to play again in the game, it resets all the stats too.
+// next step: PAUSING
+
+
+08/01/2023 10:47 am
+// pausing is now functional
+// i just added some attributes to the menu object then i used the same logic that i used for the died button
+// now i could try to add some server-side processing programing.
+// but first i need to finish the stakeholder menu
+
+
+08/01/2023 4:24 pm
+// improvments: i have made the main menu annd now i can move on to server- side processing which i which i will try to implement using sql and flask
+// the main menu uses the menu object to render by using the menu_render() method 
+
+
+08/01/2023 7:39 pm
+// for some reason i am trying to add another button for the player to have the option of exiting the game but its not working need to fix that
+
+
+08/01/2023 10pm
+// i could try to load a html button file at the start of the game and for puased and died screen instead of doing collition dectection and use a class in the css file to make it easier than using buttons in javascript.
+
+
+09/01/2023 1:11 am
+// to make the menu / pause / died screens use react and somehow use it instead of html
+// somehow try to connect react to python flask server and then that server connected to a sql database for highscores!
+// sql db <--> flask <--> react 
+// key words------: flask, react, bootstrap, typescript, angular, 
+
+
+09/01/2023 11:11 am
+// im currently trying to fix the click bug 
+// if i click on the screen the click stays true and when i hover over any option it thinks its being clicked:
+// need to fix this now
+
+
+13/01/2023 2:23 am
+// i could use react to show three diffrent canvases at 3 diffrent points in time depending on the user and what they press. i can use an onclick thing 
+
+
+14:44
+// i downloaded react and now i have to see how to use it.
+
+
+20/01/2023
+// react didnt work had to switch back to the usual javascript and HTML
+// yesturday i added the collition detection between the player and the platforms. 
+// added to the entity class
+// today i added a random amount of speeds for the enemies.
+
+
+23/01/2023  22:23
+// i could use the matter game engine but i already have a cool working game and it would be wasteful to not use my own implementation.
+// today i imrpoved the collition detection and now the game is in the middle.
+// next steps : 
+    1. fix the menu pages
+    2. document it
+    3. start backend processing
+
+1.//// find a way to stop the click button bug.
+2.//// find a way to stop the flickering in the game.
+3.//// make a pause button for the top right corner of the canvas.
+
+
+23/01/2023 
+// the error only happens when the bullets are shot and the player is moving aswell as hitting the enemies.
+// how can i fix it?
+// could check for click before the next frame
+
+
+27/01/2023
+// think about using AXIOS. for http requests for backend maybe
+// idea: could change the cliked attribute to a number but for now keep it the same
+
+
+31/01/2023
+// step 1: made file with class to send data;
+// step 2: made that file connect to html file so that it is known in that file.
+// made a requests counter attribute for Game class 
+// step 3: when player dies make GameData object to send to the server.
+// how can i make the javascript file send data back to the server?
+
+
+03/02/2023
+// trying to use axios to get past the error that shows up because its a promise or something:
+// trying to connect axios to javascript but so far i have move the json files to the classes folder and still not working.so idk whats going on.
+// added some scripts at the end of the html file but it doesnt work
+
+05/02/2023
+// axios worked now i have to make it so that it only sends back one data packet every time the player dies. ===>>> make a flowchart for it?
+
+
+10/02/2023
+// i managed to make some adjustments to the program
+// i could add to a csv file and not a db file.
+
+
+12/02/23 2am
+// i managedd to get rid of any errors and now i have a code that works and sends data to the database but doesnt find all the data in it.
+// perhaps use sqlalchmeny instead?
+
+//later that day...
+// i can try to read off the csv file and input the data into the database that way.
+
+
+19/02/2023
+// anyways today i have added so many improvements 
+// the HTML, the high scores from the database
+// the css
+// some of the javascript,
+// i just need to pre test it and make a function for when the score is bigger than the high score to change the element on the highscore.// 26/10/2024 

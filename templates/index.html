@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Survival</title>
+  <link href="{{ url_for('static', filename='css/style.css' ) }}" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <h1>SURVIAL</h1>
+  <ul id="controls">
+     <h2>controls:</h2>
+     <li id='you'>nice</li>
+     <li>press l to enter full screen and ESC to exit full screen</li>
+     <li>use CTRL +/- to zoom in or out </li>
+     <li>use WSAD to move </li>
+     <li>SHOOT: "E" </li>
+     <li>PAUSE: "P"</li>
+     <li>AIMING: "USE MOUSE"</li>
+    
+    
+   </ul>
+ 
+
+  <div id="highscoreData" data-gameID={{HgameID}} data-highscore={{HighScore}}  data-HighestRound={{HighestRound}}>
+    <ul>
+      <h2>Survial highscore</h2>
+      <li id="show-gameID">Game ID: {{HgameID}}</li>
+      <li id="show-score">Highscore: {{HighScore}}</li>
+      <li id="show-round">Highest round: {{HighestRound}}</li>
+    </ul> 
+    <!--<form onSubmit="getName(e)">
+      <input type="text" name="textbox" id="GamerName" size="100" placeholder="gamerName">
+      <input type="submit" size="100" id="submitButton" value="Submit" ></button>
+    </form>-->
+  </div>
+  <canvas></canvas>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src= "{{ url_for('static', filename='javascript/classes/Game.js' ) }}"></script>
+  <script src= "{{ url_for('static', filename='javascript/classes/Highscore.js' ) }}"></script>
+  <script src= "{{ url_for('static', filename='javascript/classes/Platforms.js' ) }}"></script>
+  <script src= "{{ url_for('static', filename='javascript/classes/Entity.js' ) }}"></script>
+  <script src= "{{ url_for('static', filename='javascript/classes/Player.js' ) }}"></script>
+  <script src= "{{ url_for('static', filename='javascript/classes/Enemy.js' ) }}"></script>
+  <script src= "{{ url_for('static', filename='javascript/classes/Bullet.js' ) }}"></script>
+  <script src= "{{ url_for('static', filename='javascript/script.js' ) }}"></script>
+  <script src= "{{ url_for('static', filename='javascript/classes/GameData.js' ) }}"></script>
+</body>
+</html>
+
+
+  

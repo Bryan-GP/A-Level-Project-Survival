@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color:grey;
+}
+#GamerName {
+  font-size: 1em;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#submitButton {
+  font-size: 1em;
+  background-color: #0099ff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #0099ff;
+}
+
+
+#controls {
+  position: center;
+  color: white;
+  font-family: algerian;
+  font-size: 50px;
+  left: 0%;
+  top: 18%;
+  transform: translate(-0%, -18%);
+}
+#highscoreData {
+  font-family: algerian;
+  font-size: 50px;
+  position: fixed;
+  left: 3%;
+  top: 93%;
+  transform: translate(-3%, -93%);
+  color: white;
+}
