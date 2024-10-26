@@ -1,5 +1,5 @@
 # A-level Computer Science Project
-## **Survival Game**: A simple survival game where the player defeat the green things (Zombies) to survive
+## **Survival Game**: A simple survival game where the player must defeat the green things (Zombies) to survive
 ##### Author: Bryan-GP
 #### Planned during April 2022 - November 2023
 #### Developed during November 2022 - March 2023
